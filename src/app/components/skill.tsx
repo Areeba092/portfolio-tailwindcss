@@ -2,11 +2,12 @@
 import React from "react";
 import Image from "next/image";
 import img from "../../../public/picture/skill/html.jpg"
-import image from "../../../public/picture/skill/css.jpg"
-import dp  from "../../../public/picture/skill/js.jpg"
-import imag from "../../../public/picture/skill/js.jpg"
-import about from "../../../public/picture/skill/react.jpg"
-import skill from "../../../public/picture/skill/tailwind.png"
+import img2 from "../../../public/picture/skill/css.jpg"
+import img3 from "../../../public/picture/skill/js.jpg"
+import img4 from "../../../public/picture/skill/react.jpg"
+import img5 from "../../../public/picture/skill/tailwind.png"
+import img6 from "../../../public/picture/skill/ts.jpg"
+
 const Skill = () => {
   return (
     <div id="skills" className="bg-gray-900">
@@ -48,7 +49,7 @@ const Skill = () => {
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
                     <Image
-                      src={img}
+                      src={img2}
                       alt={"html-logo"}
                     />
                   </div>
@@ -71,7 +72,7 @@ const Skill = () => {
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
                     <Image
-                      src={img}
+                      src={img3}
                       alt={"html-logo"}
                     />
                   </div>
@@ -94,7 +95,7 @@ const Skill = () => {
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
                     <Image
-                      src={img}
+                      src={img6}
                       alt={"html-logo"}
                     />
                   </div>
@@ -117,7 +118,7 @@ const Skill = () => {
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
                     <Image
-                      src={img}
+                      src={img4}
                       alt={"html-logo"}
                     />
                   </div>
@@ -141,7 +142,7 @@ const Skill = () => {
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
                     <Image
-                      src={img}
+                      src={img5}
                       alt={"html-logo"}
                     />
                   </div>
